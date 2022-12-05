@@ -1,0 +1,24 @@
+/* h6 {
+    font-weight: bolder;
+}
+.people {
+   
+}
+
+.email {
+
+} */
+.person > img {
+    min-width: 5em;
+    min-height: 5em;
+    background-color: grey;
+    border-radius: .66em;;
+}
+.person > h6 {
+    line-height: 1em;
+    margin-bottom: 0.4em;
+    font-weight: bold;
+} 
+.person > p {line-height: 1em;
+    margin-bottom: 0.2em;
+} 
