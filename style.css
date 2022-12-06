@@ -8,6 +8,25 @@
 .email {
 
 } */
+.people{
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fill); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+        
+}
+.person {
+    text-align: center;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 1em 1em 1em 1em;
+    
+}
 .person > img {
     min-width: 5em;
     min-height: 5em;
