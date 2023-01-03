@@ -9,8 +9,15 @@
     align-items: center;
         
 }
+
+.float-right { 
+    float:right;
+    padding-left: 25px;
+    line-height: 0em;
+    vertical-align: center;
+}
 .person {
-    text-align: center;
+    text-align: left;
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
@@ -18,12 +25,13 @@
     
 }
 .person > img {
-    min-width: 5em;
-    min-height: 5em;
+    max-width: 10em;
+    max-height: 10em;
     background-color: grey;
-    border-radius: .66em;;
+    border-radius: .66em;
+    
 }
-.person > h6 {
+.person > float-right > h6 {
     line-height: 1em;
     margin-bottom: 0.4em;
     font-weight: bold;
@@ -31,3 +39,6 @@
 .person > p {line-height: 1em;
     margin-bottom: 0.2em;
 } 
+
+
+
