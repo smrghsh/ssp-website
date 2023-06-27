@@ -240,17 +240,21 @@ there.
     position: relative;
     text-align: center;
     align-items: center;
+    flex-direction: column;
  
   }
 
 
   
   ul {
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    display:flex;
+    align-items: center;
+    flex-direction: column;
   }
   
   li {
-    flex: 0 0 50%;
+    /*flex: 0 0 50%;*/
   }
 
 
