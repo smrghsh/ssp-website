@@ -93,21 +93,38 @@ h1 {
     border-top-style:solid;
     text-align:center;
     padding:10px;
+    margin:10px;
+    overflow:auto;
       }
 
     .ssp img {
       padding:10px;
+      display:inlin-block;
+      align-items: center;
+      max-width: 50%;
     
     }
 
     .nsf {
       display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width:100%;
+      height:100px;
     }
 
-
+    .nsf img {
+      display:block;
+      width:5%;
+      padding-left:5px;
+      }
+ 
+ 
+      .nsf p {
+         margin:0;
+         padding:0;
+          }
 
 
  
@@ -128,6 +145,34 @@ h1 {
     
   }
   
+  #publications:before {
+    display: block;
+    content: "";
+    height: 70px;
+    margin: -70px 0 0;
+}
+
+#documentation:before {
+  display: block;
+  content: "";
+  height: 70px;
+  margin: -70px 0 0;
+}
+
+
+#team:before {
+  display: block;
+  content: "";
+  height: 70px;
+  margin: -70px 0 0;
+}
+
+#about:before {
+  display: block;
+  content: "";
+  height: 50px;
+  margin: -50px 0 0;
+}
 
 
   .logo img {
@@ -235,6 +280,11 @@ there.
 
 
 @media screen and (max-width: 800px) {
+
+  #tools {
+    padding-top: 50px;
+  }
+
   nav {
     overflow: auto;
     position: relative;
