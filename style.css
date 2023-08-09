@@ -158,7 +158,12 @@ h1 {
   height: 70px;
   margin: -70px 0 0;
 }
-
+#reach:before {
+  display: block;
+  content: "";
+  height: 70px;
+  margin: -70px 0 0;
+}
 
 #team:before {
   display: block;
